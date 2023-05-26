@@ -1,0 +1,79 @@
+/* Resetear los estilos al inicial la página. */
+*{
+    margin:  0px;
+    padding: 0px;
+}
+
+body{
+    display:          flex;
+    flex-direction:   column;
+    align-items:      center;
+    justify-content:  center;
+    padding:          90px 20px 0;
+    background-color: #91012B;
+}
+
+.text-titles{
+    text-align: center;
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    padding: 17px;
+}
+
+.parrafos{
+    margin:     17px;
+    padding:    17px;
+    text-align: center;
+    font-size:  27px;
+    font-family: 'Times New Roman', Times, serif;
+    color:      #FF1C5E;
+    margin:     17px;
+    padding:    17px;
+}
+
+.links{
+    margin:     17px;
+    padding:    17px;
+    text-align: center;
+    text-decoration: none;
+    font-size:  27px;
+    font-family: 'Times New Roman', Times, serif;
+    color:      #DE0242;
+    margin:     17px;
+    padding:    17px;
+}
+
+.button-back{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 27px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px; 
+    color: #DE0242;
+    margin: 17px;
+    padding: 17px;
+    background-color: #009111;
+    border-radius: 17px;
+    border-color: #FF1C5E;
+    border-bottom-style:groove;
+    display:grid;
+    z-index: 99;
+    transition: all 256ms ease 0ms;
+}
+
+.button-back:hover{  
+    background-color: #FF1C5E; /* Color de fondo al pasar el cursor */
+    border-color: #009111;
+    color: #91012B;
+    
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-14px);
+}
+
+.images{
+    padding: 17px;
+    width:   640px;
+    height:  360px;
+    border-radius: 32px;
+}
